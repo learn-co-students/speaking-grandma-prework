@@ -7,5 +7,3 @@ def speak_to_grandma(text)
     puts "HUH?! SPEAK UP, SONNY!"
   end
 end
-
-speak_to_grandma('Hi Nana, how are you?')
