@@ -11,3 +11,12 @@
 
 # However if you say 'I LOVE YOU GRANDMA!', she should respond with
 # 'I LOVE YOU TOO PUMPKIN!'
+
+def speak_to_grandma(sentence) 
+  if sentence.toupper != sentence
+      print "HUH?! SPEAK UP, SONNY"
+  elsif sentence == "I LOVE YOU GRANDMA!"
+      print "I LOVE YOU TOO PUMPKIN!"
+  else 
+    print "NO, NOT SINCE 1938!"
+end
