@@ -15,7 +15,7 @@
 def speak_to_grandma(string)
   phrase = nil
   phrase = "I LOVE YOU TOO PUMPKIN!" if string == "I LOVE YOU GRANDMA!"
-  return phrase if !phrase.empty?
+  return phrase if !phrase.nil?
   string == string.upcase ? phrase = "NO, NOT SINCE 1938!" :  phrase = "HUH?! SPEAK UP, SONNY!"
   
   return phrase
