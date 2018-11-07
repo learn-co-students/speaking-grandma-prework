@@ -25,3 +25,11 @@ speak_to_grandma("I LOVE YOU GRANDMA!")
 
 # However if you say 'I LOVE YOU GRANDMA!', she should respond with
 # 'I LOVE YOU TOO PUMPKIN!'
+
+# describe 'speak_to_grandma' do
+#   it 'returns "I LOVE YOU TOO PUMPKIN!" when str == "I LOVE YOU GRANDMA!"' do
+#     loves_grandma = speak_to_grandma("I LOVE YOU GRANDMA!")
+#
+#     expect (loves_grandma).to eq("I LOVE YOU TOO PUMPKIN!")
+#   end
+# end
