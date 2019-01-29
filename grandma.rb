@@ -1,3 +1,5 @@
+# First Attempt:
+
 # Write a speak_to_grandma method.
 #def speak_to_grandma(string)
 # if string != string.upcase
@@ -12,15 +14,20 @@
 #  end
 #end
 
+#Second Attempt:
+
 def speak_to_grandma(string)
   if string.upcase != string
     return "HUH?! SPEAK UP, SONNY!"
   elsif string == "I LOVE YOU GRANDMA!"
     return "I LOVE YOU TOO PUMPKIN!"
+    #I was thinking "up.case" the whole time
   else string == string.downcase
     return "NO, NOT SINCE 1938!"
   end
 end
+# "def" keywords needs an "end", "if" statements also need "end" keywords
+#
 
 # Whatever you say to grandma, she should respond with
 # HUH?! SPEAK UP, SONNY!
