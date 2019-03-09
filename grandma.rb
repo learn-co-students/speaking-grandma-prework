@@ -1,4 +1,13 @@
-# Write a speak_to_grandma method.
+def speak_to_grandma(greating)
+  shoutTrue = greating.upcase
+  if greating != shoutTrue
+     return "HUH?! SPEAK UP, SONNY!"
+  elsif greating == "I LOVE YOU GRANDMA!"
+     return  "I LOVE YOU TOO PUMPKIN!"
+  else   
+    return  "NO, NOT SINCE 1938!"
+  end  
+end
 
 # Whatever you say to grandma, she should respond with
 # HUH?! SPEAK UP, SONNY!
